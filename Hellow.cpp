@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    cout<<"Hellow, World!  hy"<<endl;
-    cout<<"Next line";
+int main(){
+    cout<<"Hellow World";
     return 0;
 }
