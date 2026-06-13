@@ -2,28 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run C++",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "externalConsole": true,
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "preLaunchTask": "Compile C++"
-    },
-    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/C++",
-      "program": "d:/C++/build/Debug/outDebug",
+      "cwd": "d:/C++/chapter2",
+      "program": "d:/C++/chapter2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
